@@ -11,7 +11,7 @@ body {
 /* Header Styles */
 .header {
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .header-title {
@@ -20,7 +20,8 @@ body {
   background: linear-gradient(to right, #db2777, #9333ea);
   -webkit-background-clip: text;
   color: transparent;
-  margin: 0;
+  margin: 1rem;
+  padding-bottom: 1rem;
   line-height: 1.2;
 }
 
