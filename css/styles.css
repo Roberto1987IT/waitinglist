@@ -278,3 +278,7 @@ body {
     font-size: 16px; /* Slightly smaller font */
   }
 }
+
+.popup-close {
+  display: none;
+}

@@ -6,14 +6,17 @@
   <meta name="description" content="Descubra o Colágeno Verisol da Santiskin: sua pele mais jovem e saudável em semanas. Entre na lista de espera agora!" />
   <meta name="keywords" content="colágeno, Verisol, pele saudável, lista de espera, rejuvenescimento" />
   <title>Colagénio Verisol - Lista de Espera</title>
-
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css">
-  
   <!-- Main JavaScript -->
   <script defer src="js/main.js"></script>
+  <script src="/js/script.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+
 </head>
 <body class="page-background">
   <!-- Header Section -->
@@ -43,7 +46,7 @@
           Lista de Espera
         </h2>
         
-        <form id="waitlistForm" class="form">
+        <form  method="POST" data-netlify="true" id="waitlistForm" class="form">
           <div>
             <input
               type="text"
@@ -112,7 +115,7 @@
 
   <!-- Footer Section -->
   <footer class="footer">
-    <p>© <span id="year"></span> Santiskin. Todos os direitos reservados.</p>
+    <p>© <span id="year"></span> SantiClinic. Todos os direitos reservados.</p>
     <p>
       <a href="https://www.privacypolicygenerator.info/" class="footer-link">Política de Privacidade</a> |
       <a href="https://www.termsofusegenerator.net/" class="footer-link">Termos de Uso</a>
